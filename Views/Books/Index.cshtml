@@ -1,0 +1,15 @@
+﻿
+@model IEnumerable<LibrarySystem.Models.Book>
+@{
+    ViewData["Title"] = "Books";
+}
+
+<h1>Books</h1>
+
+
+    <input type="button" id="addNewAuthorBtn" value="Add New Author" />
+    <div id="newAuthorForm" style="display: none;">
+        <input type="text" id="newAuthorName" />
+        <input type="button" id="saveNewAuthorBtn" value="Save" />
+    </div>
+    <input type="submit" value="Submit" />
