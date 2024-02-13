@@ -2,7 +2,7 @@
 {
     public class Genre
     {
-        public byte GenreId { get; set; }
+        public int GenreId { get; set; }
 
         public string Name { get; set; } = string.Empty;
     }

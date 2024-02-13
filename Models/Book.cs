@@ -19,7 +19,7 @@ namespace LibrarySystem.Models
 
 
         [Required(ErrorMessage = "Please select a genre")]
-        public byte GenreId { get; set; }
+        public int GenreId { get; set; }
         [ValidateNever]
         public Genre Genre { get; set; } = null!;
 
